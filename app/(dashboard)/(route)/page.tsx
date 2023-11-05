@@ -1,13 +1,13 @@
-import Navbar from "@/components/navbar/navbar"
+import TopHeader from "@/components/navbar/TopHeader"
 
 export default function Home() {
   return (
-    <body className=" bg-yellow-400">
+    <main>
       <div>
-        <Navbar/>
+        <TopHeader/>
 
       </div>
-    </body>
+    </main>
     
     
   )
