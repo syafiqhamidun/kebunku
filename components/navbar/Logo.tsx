@@ -13,8 +13,8 @@ const Logo = () => {
            alt="Logo"
            className="hidden md:block cursor-pointer"
            height="100"
-           width="100" 
-           src="/images/logo.jpeg"
+           width="80" 
+           src="/images/hlogo.png"
         />
 
         <Button
@@ -27,8 +27,7 @@ const Logo = () => {
                     cursor-pointer
                     flew-row
                     items-center
-                    justify-between
-                    text-3xl
+                    text-xl
                     font-exo
                     font-semibold
                 "
