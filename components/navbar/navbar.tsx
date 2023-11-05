@@ -1,6 +1,7 @@
 import Container from "../ Container";
 import Logo from "./Logo";
 import MidNav from "./MidNav";
+import LoginButton from "./Login";
 
 const Navbar = () => {
     return ( 
@@ -16,15 +17,14 @@ const Navbar = () => {
                     <div 
                         className="
                             flex
-                            flew-row
                             items-center
-                            justify justify-between
                             gap-3
-                            md:gap-0
+                            justify-between
                         "
                     >
                         <Logo/>
                         <MidNav/>
+                        <LoginButton/>
                     </div>
                 </Container>
             </div>

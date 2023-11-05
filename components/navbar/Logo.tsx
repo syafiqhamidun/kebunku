@@ -28,8 +28,9 @@ const Logo = () => {
                     flew-row
                     items-center
                     justify-between
-                    text-2xl
+                    text-3xl
                     font-exo
+                    font-semibold
                 "
         >
             PERTANIAN.MY

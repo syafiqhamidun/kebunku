@@ -16,7 +16,6 @@ const MidNav = () => {
                     hover:shadow-md
                     transition
                     cursor-pointer
-                    
                 "
             >
                 <div
@@ -74,22 +73,6 @@ const MidNav = () => {
                 </div>
                     
             </Button>
-            {/* <Button>
-                    <div
-                        className="
-                            hidden
-                            sm:block
-                            text-sm
-                            font-semibold
-                            px-6
-                            border-x-[1px]
-                            flex-1
-                            text-center
-                        "
-                    >
-                        Contact Us
-                    </div>
-            </Button> */}
         </div>
      );
 }
