@@ -65,7 +65,7 @@ const TopHeader = () => {
               {({ active }) => (
                 <a
                   href="#"
-                  className="hover:bg-gray-300 flex"
+                  className="hover:bg-gray-300 flex rounded-md "
                 >
                   Account settings
                 </a>
