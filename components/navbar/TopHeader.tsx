@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Button } from "../ui/button"; 
 import { Input } from "../ui/input";
 import { Mail } from "lucide-react";
+import { Fragment } from "react";
+
 
 const TopHeader = () => {
     return ( 
@@ -34,14 +36,17 @@ const TopHeader = () => {
             </div>
 
         {/* right */}
-            <div className="flex items-center justify-end ">
-                <Button variant={"outline"}>
-                    <Mail className=" mr-2 h-4 w-4"/> Login With Email
-                </Button>
-            </div>
+            
 
         </header>
      );
 }
  
 export default TopHeader;
+
+
+{/* <div className="flex items-center justify-end ">
+                <Button variant={"outline"}>
+                    <Mail className=" mr-2 h-4 w-4"/> Login With Email
+                </Button>
+            </div> */}
