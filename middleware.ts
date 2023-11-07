@@ -10,3 +10,9 @@ export async function middleware(req: NextRequest) {
   await supabase.auth.getSession()
   return res
 }
+
+
+// using matcher to ignore certain thing
+export const config = {
+  matcher: ["/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)"],
+};
