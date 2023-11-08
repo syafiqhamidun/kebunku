@@ -2,7 +2,6 @@ import NextAuth from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
 import { SupabaseAdapter } from "@auth/supabase-adapter"
 import { Adapter } from "next-auth/adapters";
-import { AuthOptions } from "next-auth";
 
 const handler = NextAuth({
     providers: [

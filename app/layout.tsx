@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import SupabaseProvider from '@/providers/SupabaseProvider';
 import ClientProviders from '@/components/navbar/ClientProviders';
+import TopHeader from '@/components/navbar/TopHeader';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,8 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <SupabaseProvider>
+
+            {/* <TopHeader/> */}
             {children}
           </SupabaseProvider>
         </body>

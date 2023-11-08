@@ -6,10 +6,8 @@ import { Input } from "../ui/input";
 import { Fragment } from "react";
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-
-function classNames([...classes]) {
-    return classes.filter(Boolean).join(' ')
-  }
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/auth";
 
 
 const TopHeader = () => {
@@ -103,12 +101,5 @@ const TopHeader = () => {
         </header>
      );
 }
- 
+
 export default TopHeader;
-
-
-{/* <div className="flex items-center justify-end ">
-                <Button variant={"outline"}>
-                    <Mail className=" mr-2 h-4 w-4"/> Login With Email
-                </Button>
-            </div> */}
